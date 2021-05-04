@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// INVERSE OF A MATRIX
+
+int main()
+{
+    int X1 = 5;
+    int Y1 = 5;
+    double mat1[5][5] = // ilk matris boyutu
+    {
+        {   311111.111111   ,   0.000000    ,   0.000000    ,   -311111.111111  ,   0.000000    }   ,
+        {   0.000000    ,   153.635117  ,   311111.111111   ,   0.000000    ,   311111.111111   }   ,
+        {   0.000000    ,   311111.111111   ,   840000000.000000    ,   0.000000    ,   420000000.000000    }   ,
+        {   -311111.111111  ,   0.000000    ,   0.000000    ,   420311.111111   ,   0.000000    }   ,
+        {   0.000000    ,   311111.111111   ,   420000000.000000    ,   0.000000    ,   1134840000.000000   }
+    };
+
+    int X2 = 5, Y2 = 1;
+    double mat2[5][1] = // carpılacak matris boyutu
+    {
+        {   311111.111111   }   ,
+        {   0.000000    }   ,
+        {   0.000000    }   ,
+        {   -311111.111111  }   ,
+        {   0.000000    }
+    };
+
+    double resultMatrix[X2][Y2];
+
+    for (int i = 0; i < X1; i++)
+    {
+        double sum = 0;
+        for (int j = 0; j < Y1; j++)
+        {
+            sum += mat1[i][j] * mat2[j][0];
+        }
+
+        resultMatrix[i][0] = sum;
+    }
+
+    for (int i = 0; i < X2; i++)
+    {
+        for (int j = 0; j < Y2; j++)
+        {
+            printf("%f\t", resultMatrix[i][j]);
+        }
+        printf("\n");
+    }
+    
+    printf("\n\nSonuç matrisini kaydetmek istiyor musunuz (y/n): ");
+    char save = getchar();
+    
+    if(save == 'y')
+    {
+        FILE *fp;
+        fp = fopen ("D:\\matris.xls","w");
+        
+        for (int i = 0; i < X2; i++)
+        {
+            for (int j = 0; j < Y2; j++)
+            {
+                fprintf (fp, "%f\t", resultMatrix[i][j]);
+            }
+            fprintf (fp, "\n");
+        }
+        
+        fclose (fp);
+        
+        printf("\n\nKG matrisi D:\\matris.xls kaydedildi.\n\n");
+    }
+    
+    return 0;
+}

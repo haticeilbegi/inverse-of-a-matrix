@@ -1,0 +1,13 @@
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.exe
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.deps.json
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.runtimeconfig.json
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.runtimeconfig.dev.json
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.dll
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\bin\Debug\netcoreapp3.1\inverse-of-a-matrix.pdb
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.csprojAssemblyReference.cache
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.AssemblyInfoInputs.cache
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.AssemblyInfo.cs
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.csproj.CoreCompileInputs.cache
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.dll
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.pdb
+C:\Users\hatice.ilbegi\source\repos\inverse-of-a-matrix\inverse-of-a-matrix\obj\Debug\netcoreapp3.1\inverse-of-a-matrix.genruntimeconfig.cache
